@@ -1,0 +1,138 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+
+.searching-space{
+  width: 545px;
+    height: 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+     left: 555px;
+   
+}
+.button{
+  position: absolute;
+  left:1372px;
+  top:21px;
+  border: none;
+  height: 24px;
+width: 74px;
+font-style: italic;
+font-weight: 100;
+cursor: pointer;
+}
+
+.searching-icon{
+  position: absolute;
+  left: 1065px;
+  top: 22px;
+  cursor: pointer;
+}
+
+.tool{
+  position: absolute;
+  left: 1453px;
+  top: 17px;
+  cursor: pointer;
+}
+.voice{
+  position: absolute;
+  left:1118px;
+  top: 21px;
+  cursor: pointer;
+}
+.profile{
+  position: absolute;
+  left: 1484px;
+  top: 19px;
+  cursor: pointer;
+}
+
+
+
+.logo{
+  font-size: 22px;
+  font-weight:bold;
+  float: left;
+  position:absolute;
+  top:18px;
+  left: 70px;
+  color:black;
+  cursor: pointer;
+  
+}
+
+.container{
+display: flex;
+}
+.sidebar{
+  position: absolute;
+  left:-2px;
+  top: 15px;
+  cursor: pointer;
+}
+.playbutton{
+  position: absolute;
+  left:43px;
+  top: 17px;
+}
+.All{
+  position: absolute;
+  background-color: black;
+  color: white;
+  left: 42px;
+  top: 54px;
+border-radius: 7px;
+cursor: pointer;
+}
+.btn-row{
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top:56px;
+  left: 78px;
+  
+}
+
+.btn-row button{
+border-radius: 7px;
+border:none;
+cursor: pointer;
+color:black;
+
+}
+.thumbnail{
+  width: 360px;
+  height: 202px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.video-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
+  gap:10px;
+  padding: 117px;
+  padding-bottom: 5px;
+}
+.video-card h3{
+  margin: 10px 0 5px;
+  font: 16px;
+}
+.video-card p{
+  margin:0;
+  color:3555;
+  font-size: 14px;
+}
+
+
+
+
+
